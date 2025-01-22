@@ -14,6 +14,7 @@ using System.Configuration;
 
 namespace Company.Function
 {
+    // This class is used to get the counter value from the CosmosDB
     public static class GetResumeCounter
     {
         [FunctionName("GetResumeCounter")]
