@@ -18,6 +18,7 @@ jobs:
       with:
         client-id: ${{ secrets.AZURE_CLIENT_ID }}  # Optional for OIDC, you can leave this empty
         tenant-id: ${{ secrets.AZURE_TENANT_ID }}  # Optional for OIDC, you can leave this empty
+        federated-credentials: true  # This enables OIDC-based login
 
     # Upload files to Blob Storage
     - name: Upload to blob storage
