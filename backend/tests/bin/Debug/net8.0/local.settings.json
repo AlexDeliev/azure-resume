@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "FUNCTIONS_INPROC_NET8_ENABLED": "1",
+    "AzureResumeConnectionString":"AccountEndpoint=https://myazureportfolio.documents.azure.com:443/;AccountKey=wolQVeUN3xB0iUFmgyhd8TN9INRF4guHWLwzOPcvd3hSPL6JTw2LuJd6gA3Fj0PyHOsmlI6CqNaqACDbLReBIg==;"
+  },
+  "Host":
+  {
+    "CORS":"*"
+  }
+}
