@@ -27,14 +27,15 @@ The tests validate the functionality of the function, including its ability to r
 - **Purpose**: Provides a no-op implementation of the `IDisposable` interface for logger scopes.
 
 ---
+
 ## File Structure
 
+```plaintext
 tests/
 ├── TestCounter.cs    # Main test class for the Azure Function
 ├── TestFactory.cs    # Factory methods for creating mock objects
 ├── ListLogger.cs     # Custom logger for capturing logs
 ├── NullScope.cs      # No-op implementation of IDisposable for logger scopes
----
 
 ## How to Run Tests
 
